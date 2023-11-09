@@ -12,9 +12,34 @@ body {
 
 .hlavicka	{ background-color: #2ecc71; }
 .hlavni		{ background-color: #f1c40f; }
-.levy			{ background-color: #3498db; }
+.levy		{ background-color: #3498db; }
 .pravy		{ background-color: #e74c3c; }
 .paticka	{ background-color: #9b59b6; }
 
 /* ---------------------------------------------------- */
+.body{
+	display: grid;
+	grid-template-columns: 200px auto 250px;
+	grid-template-rows: 200px auto 100px;
+	gap: 10px;
+}
 
+.hlavicka{
+	grid-column: 1 /  3;
+		}
+.hlavni{
+	grid-column: ;
+	grid-row: ;
+	
+
+}
+.levy{
+	grid-column: 2 / 3;
+	grid-row: 2 / 2;
+}
+.pravy{
+
+}
+.paticka{
+
+}
